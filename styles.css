@@ -1,0 +1,58 @@
+body {
+    font-family:cursive;
+    background-color:#ffecf2;
+    margin: 20px 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px; 
+    max-width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px; 
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom: 16px; 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus, select:focus {
+    border: 3px solid #ffc0d4; 
+    outline: none; 
+}
+
+input[type="file"] {
+    border: none; 
+
+}
+
+button {
+    background-color: #ffd9e5;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    padding: 12px 15px; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color:#ffc0d4;
+}

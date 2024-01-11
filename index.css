@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile Maker</title>
+
+</head>
+<body>
+
+    <form action="https://www2.cs.torontomu.ca/~acezette/cgi-bin/cgiScript.cgi" method="post" enctype="multipart/form-data">
+
+        <label for="fname">First name:</label>
+        <input type="text" name="fname" required><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" required><br><br>
+        <label for="address">Address:</label>
+        <input type="text" name="address" required><br><br>
+        <label for="city">City:</label>
+        <input type="text" name="city" required><br><br>
+        <label for="postal">Postal code:</label>
+        <input type="text" name="postal" required><br><br>
+
+        <label for="province">Province:</label>
+        <select id="province" name="province">
+            <option value="Alberta">Alberta</option>
+            <option value="British Columbia">British Columbia</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="New Brunswick">New Brunswick</option>
+            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+            <option value="Nova Scotia">Nova Scotia</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Prince Edward Island">Prince Edward Island</option>
+            <option value="Quebec">Quebec</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+            <option value="Northwest Territories">Northwest Territories</option>
+            <option value="Nunavut">Nunavut</option>
+            <option value="Yukon">Yukon</option>
+        </select><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" name="phone" required><br><br>
+        <label for="email">Email Address:</label>
+        <input type="text" name="email"required><br><br>
+        <label for="photo">Upload Profile Picture:</label>
+        <input type="file" name="photo" required><br><br>
+        <button type="submit" name="submitButton">Submit</button>
+    </form>
+
+    
+</body>
+
+</html>
